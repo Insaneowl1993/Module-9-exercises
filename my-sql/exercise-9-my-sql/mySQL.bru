@@ -1,0 +1,25 @@
+meta {
+  name: mySQL
+  type: http
+  seq: 1
+}
+
+post {
+  url: http://localhost:8081/api/users/create
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+  "firstName": "John",
+  "lastName": "Doe",
+  "emailId": "john@user.com",
+  "password": "123456"
+  }
+  
+  
+  
+  
+  
+}
